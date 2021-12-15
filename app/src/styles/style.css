@@ -1,3 +1,27 @@
-
+/**
+*   CARD
+*     MEDIA
+*       IMG
+*     BODY
+*       TITLE
+*         NAME
+*         AGE
+*       DESCRIPTION
+*       INFO
+*         INFO-ITEM
+*           COUNT
+*           DESCRIPTION
+*         INFO-ITEM
+*           COUNT
+*           DESCRIPTION
+*         INFO-ITEM
+*           COUNT
+*           DESCRIPTION
+**/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 /*# sourceMappingURL=style.css.map */

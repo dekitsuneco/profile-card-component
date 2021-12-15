@@ -1,0 +1,59 @@
+/**
+*   CARD
+*     MEDIA
+*       IMG
+*     BODY
+*       TITLE
+*         NAME
+*         AGE
+*       DESCRIPTION
+*       INFO
+*         INFO-ITEM
+*           COUNT
+*           DESCRIPTION
+*         INFO-ITEM
+*           COUNT
+*           DESCRIPTION
+*         INFO-ITEM
+*           COUNT
+*           DESCRIPTION
+**/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.card {
+  &__media {}
+
+
+  &__body {}
+  
+  &__title {}
+
+  &__name {}
+
+  &__age {}
+
+  &__description {}
+
+  
+  
+  &__info {}
+  
+  &__info-item {}
+  
+  &__count {}
+  
+  &__count-description {}
+}
+
+.attribution {
+
+  a {
+
+  }
+}
