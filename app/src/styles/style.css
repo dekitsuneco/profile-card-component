@@ -33,6 +33,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background-color: #19a2ae;
+  background-image: url("../assets/images/bg-pattern-top.svg"), url("../assets/images/bg-pattern-bottom.svg");
+  background-position: top center, -75%, 50%;
   font-size: 1.125rem;
   font-family: "Kumbh Sans", sans-serif;
 }
@@ -53,6 +55,7 @@ body {
   min-height: 9.6rem;
   position: relative;
   background-color: #00c7c4;
+  background-image: url("../assets/images/bg-pattern-card.svg");
 }
 .card__media img {
   display: block;

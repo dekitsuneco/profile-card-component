@@ -42,6 +42,10 @@ body {
   justify-content: space-between;
 
   background-color: hsl(185, 75%, 39%);
+  background-image: 
+  url('../assets/images/bg-pattern-top.svg'),
+  url('../assets/images/bg-pattern-bottom.svg');
+  background-position: top center, -75%, 50%;
   font-size: 1.125rem;
   font-family: 'Kumbh Sans', sans-serif;
 }
@@ -64,6 +68,7 @@ body {
     position: relative;
 
     background-color: hsl(179, 100%, 39%);
+    background-image: url('../assets/images/bg-pattern-card.svg');
 
     img {
       display: block;
