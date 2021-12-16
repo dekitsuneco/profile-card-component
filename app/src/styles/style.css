@@ -44,6 +44,11 @@ body {
   border-radius: 1.8rem;
   overflow: hidden;
 }
+@media (max-width: 400px) {
+  .card {
+    min-width: 19rem;
+  }
+}
 .card__media {
   min-height: 9.6rem;
   position: relative;
@@ -109,6 +114,7 @@ body {
 }
 
 .attribution {
+  margin-top: auto;
   font-size: 11px;
   text-align: center;
 }
