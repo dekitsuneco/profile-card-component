@@ -53,6 +53,10 @@ body {
 }
 .card__profile {
   min-height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 1.6rem;
 }
 .card__title {
   display: flex;
@@ -63,12 +67,14 @@ body {
   font-weight: 700;
 }
 .card__age {
-  font-size: 1.25rem;
+  color: #2d3248;
+  font-weight: 400;
 }
 .card__description {
-  display: flex;
-  justify-content: center;
+  margin-top: 0.7rem;
+  text-align: center;
   font-size: 0.9rem;
+  color: #6a6f81;
 }
 .card__info {
   min-height: 5rem;
@@ -77,7 +83,7 @@ body {
   border-top: 0.1px solid #969696;
 }
 .card__info-item {
-  margin-top: 1.5rem;
+  margin-top: 1.6rem;
   margin-bottom: 1.2rem;
 }
 .card__count {

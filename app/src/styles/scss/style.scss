@@ -67,6 +67,11 @@ body {
   }
     &__profile {
       min-height: $profile-height;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      margin-bottom: 1.6rem;
+
     }
       &__title {
         display: flex;
@@ -77,13 +82,15 @@ body {
           font-weight: 700;
         }
         &__age {
-          font-size: 1.25rem;
+          color:  hsl(229, 23%, 23%);
+          font-weight: 400;
         }
       &__description {
-        display: flex;
-        justify-content: center;
+        margin-top: .7rem;
 
+        text-align: center;
         font-size: .9rem;
+        color: hsl(227, 10%, 46%);
       }
 
 
@@ -96,7 +103,7 @@ body {
     }
 
     &__info-item {
-      margin-top: 1.5rem;
+      margin-top: 1.6rem;
       margin-bottom: 1.2rem;
     }
       &__count {
