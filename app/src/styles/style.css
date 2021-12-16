@@ -4,10 +4,11 @@
 *     MEDIA
 *       IMG
 *     BODY
-*       TITLE
-*         NAME
-*         AGE
-*       DESCRIPTION
+*       PROFILE 
+*         TITLE
+*           NAME
+*           AGE
+*         DESCRIPTION
 *       INFO
 *         INFO-ITEM
 *           COUNT
@@ -38,18 +39,42 @@ body {
 
 .card {
   margin: 2rem auto;
-  min-width: 43rem;
+  max-width: 43rem;
+  min-height: 25rem;
   border: 1px solid black;
 }
 .card__media {
+  min-height: 10rem;
   background-color: #00c7c4;
 }
 .card__body {
+  min-height: 15rem;
   background-color: white;
+}
+.card__profile {
+  min-height: 10rem;
 }
 .card__title {
   display: flex;
   justify-content: center;
+  column-gap: 0.5rem;
+}
+.card__name {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.card__age {
+  font-size: 1.25rem;
+}
+.card__description {
+  display: flex;
+  justify-content: center;
+}
+.card__info {
+  min-height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  border-top: 0.1px solid gray;
 }
 .attribution {
   font-size: 11px;

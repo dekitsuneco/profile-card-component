@@ -4,10 +4,11 @@
 *     MEDIA
 *       IMG
 *     BODY
-*       TITLE
-*         NAME
-*         AGE
-*       DESCRIPTION
+*       PROFILE 
+*         TITLE
+*           NAME
+*           AGE
+*         DESCRIPTION
 *       INFO
 *         INFO-ITEM
 *           COUNT
@@ -19,6 +20,12 @@
 *           COUNT
 *           DESCRIPTION
 **/
+$card-height: 25rem;
+  $media-height: ($card-height / 5) * 2;
+  $body-height: ($card-height / 5) * 3;
+    $profile-height: ($body-height / 3) * 2;
+    $info-height: ($body-height / 3);
+
 
 * {
   box-sizing: border-box;
@@ -41,40 +48,56 @@ body {
 
 .card {
   margin: 2rem auto;
-  min-width: 43rem;
+  max-width: 43rem;
+  min-height: $card-height;
 
   border: 1px solid black;
 
   &__media {
+    min-height: $media-height;
+
     background-color: hsl(179, 100%, 39%);
   }
 
 
   &__body {
+    min-height: $body-height;
+
     background-color:  white;
   }
+    &__profile {
+      min-height: $profile-height;
+    }
+      &__title {
+        display: flex;
+        justify-content: center;
+        column-gap: .5rem;
+      }
+        &__name {
+          font-size: 1.25rem;
+          font-weight: 700;
+        }
+        &__age {
+          font-size: 1.25rem;
+        }
+      &__description {
+        display: flex;
+        justify-content: center;
+      }
 
-  &__title {
-    display: flex;
-    justify-content: center;
-  }
 
-  &__name {}
+    &__info {
+      min-height: $info-height;
+      display: flex;
+      justify-content: space-around;
 
-  &__age {}
+      border-top: .1px solid gray;
+    }
 
-  &__description {}
-
-
-
-  &__info {}
-
-  &__info-item {}
-
-  &__count {}
-
-  &__count-description {}
-}
+    &__info-item {}
+      &__count {}
+      &__count-description {}
+} 
 
 .attribution {
   font-size: 11px;
