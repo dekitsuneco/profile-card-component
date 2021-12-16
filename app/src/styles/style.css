@@ -31,7 +31,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   background-color: #19a2ae;
   font-size: 1.125rem;
   font-family: "Kumbh Sans", sans-serif;
@@ -39,24 +39,35 @@ body {
 
 .card {
   margin: 2rem auto;
-  min-width: 30rem;
-  min-height: 25rem;
-  border: 1px solid black;
+  min-width: 21rem;
+  min-height: 24rem;
+  border-radius: 1.8rem;
+  overflow: hidden;
 }
 .card__media {
-  min-height: 10rem;
+  min-height: 9.6rem;
+  position: relative;
   background-color: #00c7c4;
 }
+.card__media img {
+  display: block;
+  position: absolute;
+  left: 34%;
+  top: 70%;
+  min-width: 6.8rem;
+  border-radius: 50%;
+  outline: 5px solid white;
+}
 .card__body {
-  min-height: 15rem;
+  min-height: 14.4rem;
   background-color: white;
 }
 .card__profile {
-  min-height: 10rem;
+  min-height: 9.6rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-bottom: 1.6rem;
+  margin-bottom: 2rem;
 }
 .card__title {
   display: flex;
@@ -77,7 +88,7 @@ body {
   color: #6a6f81;
 }
 .card__info {
-  min-height: 5rem;
+  min-height: 4.8rem;
   display: flex;
   justify-content: space-around;
   border-top: 0.1px solid #969696;
