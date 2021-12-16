@@ -40,10 +40,19 @@ body {
 
 
 .card {
-  &__media {}
+  margin: 2rem auto;
+  min-width: 43rem;
+
+  border: 1px solid black;
+
+  &__media {
+    background-color: hsl(179, 100%, 39%);
+  }
 
 
-  &__body {}
+  &__body {
+    background-color:  white;
+  }
 
   &__title {}
 
