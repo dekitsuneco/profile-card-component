@@ -47,6 +47,10 @@ body {
 .card__body {
   background-color: white;
 }
+.card__title {
+  display: flex;
+  justify-content: center;
+}
 .attribution {
   font-size: 11px;
   text-align: center;

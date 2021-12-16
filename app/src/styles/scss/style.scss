@@ -54,7 +54,10 @@ body {
     background-color:  white;
   }
 
-  &__title {}
+  &__title {
+    display: flex;
+    justify-content: center;
+  }
 
   &__name {}
 
