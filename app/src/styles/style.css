@@ -39,6 +39,13 @@ body {
   font-family: "Kumbh Sans", sans-serif;
 }
 
+main {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
 .card {
   margin: 2rem auto;
   min-width: 21rem;

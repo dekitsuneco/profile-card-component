@@ -49,6 +49,12 @@ body {
   font-size: 1.125rem;
   font-family: 'Kumbh Sans', sans-serif;
 }
+main {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
 
 
 .card {
